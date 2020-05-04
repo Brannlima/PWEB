@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo</title>
+</head>
+<body>
+    <script>
+        var escolha = prompt("Pedra, papel ou tesoura");
+        var computador = Math.round (Math.random() * (3 - 0) + 0);
+
+        switch (escolha){
+            case "pedra":
+            escolha = 0;
+            break;
+            case "papel":
+            escolha = 1;
+            break;
+            case "tesoura":
+            escolha = 2;
+            break;
+            default:
+            alert("Valor inválido");
+        }
+
+        switch (computador){
+            case 0:
+            alert("O computador esolheu pedra");
+            break;
+            case 1:
+            alert("O computador esolheu papel");
+            break;
+            case 2:
+            alert("O computador esolheu tesoura");
+            break;
+            default:
+        }
+
+
+        if(escolha == computador)
+            alert("Empate");
+        else 
+            if(escolha == 0){
+                if(computador == 1)
+                    alert("Computador venceu!!! \nPapel cobre a pedra");
+                else
+                    alert("Jogador venceu!!! \nPedra quebra a tesoura");
+            }
+            else
+                if(escolha == 1){
+                    if(computador == 0)
+                        alert("Jogador venceu!!! \nPapel cobre a pedra");
+                    else
+                        alert("Computador venceu!!! \nTesoura corta o papel");
+                }
+                else
+                    if(computador == 0)
+                        alert("Computador venceu!!! \nPedra quebra a tesoura");
+                    else
+                        alert("Jogador venceu!!! \nTesoura cortar o papel");
+            
+    </script>
+</body>
