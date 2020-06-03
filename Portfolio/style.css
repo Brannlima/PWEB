@@ -1,0 +1,222 @@
+header{
+	width: 100%;
+}
+#menu {
+	float: left;
+	width: 100%;
+	height: 1.4em;
+	display: inline;
+	position: fixed;
+
+	top: 0;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.3em;
+	font-family: Arial, Helvetica, sans-serif;
+	background: black;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0.5em;
+	right: 0%;
+	clear: left;
+}
+#menu a:hover{
+	color: rgb(148, 146, 146);
+	font-size: 1.4em;
+	transition: 0.3s;
+}
+nav a{
+	color: #ffffff;	
+	text-decoration: none;
+
+}
+#titulo-principal{
+	position: absolute;
+	top: 4em;
+	right: 63%;
+	text-decoration: none;
+	font-size: 2.8em;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-text-stroke: 0.5px darkgray;
+	text-transform: uppercase;
+}
+.subtitulo1{
+	position: absolute;
+	top: 6.8em;
+	right: 63%;
+	text-decoration: none;
+	font-size: 2.3em;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-text-stroke: 0.5px darkgray;
+}
+.subtitulo2{
+	position: absolute;
+	top: 8.8em;
+	right: 68%;
+	text-decoration: none;
+	font-size: 2.3em;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-text-stroke: 0.5px darkgray;
+}
+.subtitulo3{
+	position: absolute;
+	top: 10.8em;
+	right: 69%;
+	text-decoration: none;
+	font-size: 2.3em;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-text-stroke: 0.5px darkgray;
+}
+.home {
+	top: 5%;
+	width:100%;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 115px;
+    right: 60%;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+.principal{
+	padding: 2em 0 2em;
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+	padding: 2em;
+    width: 940px;
+    margin: 0 auto;
+}
+.contato{
+	width: 940px;
+	padding: 1.5em 0 0 6em;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+form label, form legend{
+    display: block;
+    font-size: 1.3em;
+    margin: 0 0 0.7em;
+}
+.inputPadrao{
+	border-radius: 15px;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+textarea{
+	border-radius: 20px;
+}
+
+.enviar{
+    width: 40%;
+	padding: 15px 0;
+	margin: 15px 0 0 20px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkgray;
+    transform: scale(1.2);
+}
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 15px;
+    margin: 20px;
+}
+#foto{
+	width: 31%;
+	transition: 1s;
+}
+.sobre{
+	float: right;
+	text-align: center;
+	margin: 2.4em 19em 0 0;
+	left: 70%;
+	top: 30em;
+	width: 30%;
+	clear: right;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#foto:hover{
+	transform: scale(1.5);
+}
+.listaLg{
+	padding-bottom: 0.8em;
+}
+.sobre li{
+	display: inline;
+	font-weight: bold;
+}
+
+.projetos{
+	width: 100%;
+	background: #fdfdfd;
+	padding-bottom: 2em;
+}
+#tituloProj{
+	background: #fdfdfd;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 2em;
+}
+.projetos img{
+	width: 30%;
+	border-radius: 15px;
+	margin: 0 0 3em 0;
+	transition: 1s all;
+}
+.projetos img:hover{
+	transform: scale(1.2);
+}
+.projetos li{
+	display: inline;
+}
+.imgproj{
+	margin: 0 0 0 2.5em;
+	padding-bottom: 0.5em;
+}
+
+.projetos p{
+	font-size: 1em;
+	text-align: center;
+}
+.icons img{
+	border-radius: 3em;
+	width: 5em;
+	padding-left: 0.3em;
+	transition: 1s all;
+}
+.icons img:hover{
+	transform: scale(1.2);
+}
