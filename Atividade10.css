@@ -1,0 +1,56 @@
+body{
+  width: 100%;
+  background: cyan;
+  margin: 0 auto;
+}
+header{
+  width: 940px;
+}
+.titulo{
+  text-align: center;
+  color: white;
+  padding-left: 10em;
+}
+form{
+  width: 940px;
+  text-align: left;
+  input-align: center;
+  margin: 0 auto;
+}
+form label{
+  display: block;
+}
+form input{
+  margin-bottom: 2em;
+
+}
+form textarea{
+  margin-bottom: 4em;
+}
+#email{
+  width: 20em;
+}
+#nome{
+  width: 15em
+}
+#subtitulo{
+  width: 940pxs;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+fieldset legend{
+  text-align: center;
+  font-size: 1.2em;
+  font-style: italic;
+}
+fieldset{
+  display: block;
+  width: 940px;
+  padding: 0 0 0 0;
+  margin: 0 0 2em 0;
+}
+fieldset input{
+    margin-bottom: 0.5em;
+}
